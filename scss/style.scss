@@ -1,0 +1,24 @@
+@import "_nullstyle";
+@import "_header";
+
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1;
+	padding: 0 15px;
+	margin: 0 auto;
+	box-sizing: content-box;
+}
+
+@import "_footer";
